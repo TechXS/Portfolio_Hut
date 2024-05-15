@@ -11,7 +11,7 @@ export default function TeamCard({user}) {
                     <div className="invisible group-hover:visible flex flex-row items-center justify-around gap-4 -mt-8 ">
                         {
                             user.socials.map((data, index) =>
-                               <a key={index} href={data.url}> <img rel="icon"
+                              data.url !=" " && <a key={index} href={data.url} target="_blank"> <img rel="icon"
                                     src={socialIcons[data.name]}
                                     width={25}
                                     height={25}

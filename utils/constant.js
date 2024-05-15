@@ -29,7 +29,7 @@ export const teams = [
         socials : [
             {
                 name:"linkedIn",
-                url : " "
+                url : "https://www.linkedin.com/in/samuel-wainaina01/"
             },
             {
                 name:"facebook",
@@ -98,7 +98,7 @@ export const teams = [
         socials : [
             {
                 name:"linkedIn",
-                url : " "
+                url : "https://www.linkedin.com/in/juddmarc/"
             },
             {
                 name:"facebook",
