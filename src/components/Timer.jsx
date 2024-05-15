@@ -39,6 +39,7 @@ export default function Timer(){
         <div className="flex flex-col justify-center items-center gap-y-8 w-full relative mt-12 max-w-[90rem] px-4 mx-auto">
             <div className="flex flex-col justify-center items-center gap-y-2">
                 <h2 className="text-base md:text-lg text-[#4154f1]"> COMING SOON </h2>
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 <p className="font-semibold text-xl text-blue-950">We're working hard to improve our website and we'll ready to launch after</p>
             </div>
             <div className="flex flex-row shrink justify-around items-center gap-y-14 gap-x-4 flex-nowrap">
