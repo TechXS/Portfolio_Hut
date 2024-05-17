@@ -7,7 +7,7 @@ export default function Problem (){
             </div>
             <div className="flex flex-col md:flex-row w-full relative items-center justify-center ">
                 <div className="bg-[#f6f9ff] basis-1/2 p-6 mx-6 md:m-0 h-80 flex items-center">
-                    <p>The traditional property management process is riddled with inefficiencies, leading to challenges
+                    <p className="text-lg">The traditional property management process is riddled with inefficiencies, leading to challenges
                         such as manual paperwork, delayed maintenance requests, lack of transparency in communication,
                         and
                         difficulty in managing multiple properties simultaneously. These issues result in increased
