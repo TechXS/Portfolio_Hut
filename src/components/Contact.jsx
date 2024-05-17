@@ -7,7 +7,7 @@ export default function Contact (){
         {
             name : "location",
             title : "Address",
-            details :["A108 Adam Street", "New York, NY 535022"]
+            details :["Juja", "Kiambu"]
 
         },
         {

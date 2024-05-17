@@ -114,6 +114,29 @@ export const teams = [
             }
         ]
     },
+    {
+        name : "Vincent Njoroge",
+        role : "AI Dev",
+        profile_pic : "no_user.jpg",
+        socials : [
+            {
+                name:"linkedIn",
+                url : "https://www.linkedin.com/in/vincent/"
+            },
+            {
+                name:"facebook",
+                url : " "
+            },
+            {
+                name:"X",
+                url : " "
+            },
+            {
+                name:"instagram",
+                url : " "
+            }
+        ]
+    },
 ]
 
 export const socialIcons = {
