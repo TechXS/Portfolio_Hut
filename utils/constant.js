@@ -117,11 +117,11 @@ export const teams = [
     {
         name : "Vincent Njoroge",
         role : "AI Dev",
-        profile_pic : "no_user.jpg",
+        profile_pic : " ",
         socials : [
             {
                 name:"linkedIn",
-                url : "https://www.linkedin.com/in/vincent/"
+                url : "https://www.linkedin.com/in/vincent-njoroge-6133a9277/"
             },
             {
                 name:"facebook",
