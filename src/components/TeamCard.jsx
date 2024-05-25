@@ -9,7 +9,6 @@ export default function TeamCard({user}) {
                  className="rounded-xl w-80 aspect-auto"/>
         </div>
 
-
         <div
             className='border flex flex-col items-center justify-center bg-white p-4 rounded-lg shadow-lg w-5/6 -mt-10 gap-y-4'>
             <div className="invisible group-hover:visible flex flex-row items-center justify-around gap-4 -mt-8 ">
