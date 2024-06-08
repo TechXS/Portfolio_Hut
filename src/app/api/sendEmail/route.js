@@ -45,7 +45,9 @@ export async function POST(request) {
         return new Response(JSON.stringify({ success: false, message: 'An error occurred while sending email' }), {
             status: 500,
             headers: {
-                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                'Access-Control-Allow-Headers': 'Content-Type, Authorization',
             },
         });
     }
@@ -53,6 +55,11 @@ export async function POST(request) {
 
 export async function GET(request) {
     return new Response('Hello, Next.js!', {
-        status: 200
+        status: 200,
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+        },
     })
 }
