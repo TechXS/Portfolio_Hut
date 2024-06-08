@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import Timer from "@/components/Timer";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
    </div>
        <Problem/>
        <Solution/>
+       {/*<Features/>*/}
        <Timer/>
       <Team/>
        <Contact/>

@@ -117,7 +117,7 @@ export const teams = [
     {
         name : "Vincent Njoroge",
         role : "AI Dev",
-        profile_pic : " ",
+        profile_pic : "user_6.jpeg",
         socials : [
             {
                 name:"linkedIn",
