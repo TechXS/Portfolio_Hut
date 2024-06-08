@@ -12,6 +12,8 @@ COPY --chown=user:app package*.json .
 
 RUN npm -v
 RUN npm install
+ARG NEXT_PUBLIC_URL
+ENV NEXT_PUBLIC_URL=$NEXT_PUBLIC_URL
 COPY --chown=user:app . .
 RUN npm run build
 
