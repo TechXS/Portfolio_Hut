@@ -1,4 +1,4 @@
-FROM node:latest as builder
+FROM node:latest AS builder
 WORKDIR /app
 
 # Check if group exists, if not, create it
